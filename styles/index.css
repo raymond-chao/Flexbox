@@ -11,7 +11,7 @@
 .card {
   background-color: steelblue;
   color: black;
-  flex: 1 auto; /* Makes all items grow equally */
+  flex: 1 auto;
   text-align: center;
   margin: 5px;
   display: flex;
