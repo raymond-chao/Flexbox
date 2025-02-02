@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  border: 5px dotted black;
+  position: relative;
+  width: 70%;
+  min-height: 200px;
+  padding: 25px;
+  align-items: stretch;
+  justify-content: space-evenly;
+}
+.card {
+  background-color: steelblue;
+  color: black;
+  flex: 1 auto; /* Makes all items grow equally */
+  text-align: center;
+  margin: 5px;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
