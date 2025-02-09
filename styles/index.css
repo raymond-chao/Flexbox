@@ -1,20 +1,102 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
 .container {
   display: flex;
-  border: 5px dotted black;
+  gap: 20px;
+  padding: 20px;
+  justify-content: relative;
+  flex: 1 auto;
   position: relative;
-  width: 70%;
+  width: 100%;
   min-height: 200px;
   padding: 25px;
-  align-items: stretch;
-  justify-content: space-evenly;
-}
-.card {
-  background-color: steelblue;
-  color: black;
-  flex: 1 auto;
-  text-align: center;
-  margin: 5px;
+
+} 
+.flexbox1 {
   display: flex;
-  align-items: stretch;
+  width: 80%;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 10px;
+  background-color: #f8f8f8;
+  padding: 15px;
+  border-radius: 8px;
+  min-height: 200px;
+}
+.flexbox2 {
+  display: flex;
+  width: 80%;
+  gap: 10px;
   justify-content: center;
+  align-items: stretch;
+  background-color: #f8f8f8;
+  padding: 15px;
+  border-radius: 8px;
+  min-height: 200px;
+}
+.flexbox3 {
+  display: flex;
+  width: 80%;
+  gap: 10px;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #f8f8f8;
+  padding: 15px;
+  border-radius: 8px;
+  min-height: 200px;
+}
+.flexbox4 {
+  display: flex;
+  width: 80%;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8;
+  padding: 15px;
+  border-radius: 8px;
+  min-height: 200px;
+}
+.flexbox4 .card:nth-child(3) {
+  align-self: flex-end;
+}
+.flexbox5 {
+  display: flex;
+  width: 80%;
+  gap: 10px;
+  justify-content: center;
+  background-color: #f8f8f8;
+  padding: 15px;
+  border-radius: 8px;
+  min-height: 200px;
+}
+.flexbox5 .card:nth-child(2) {
+  align-self: center;
+}
+.flexbox6 {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8;
+  padding: 15px;
+  border-radius: 8px;
+  min-height: 200px;
+}
+.flexbox6 .card:nth-child(2) {
+  flex-grow: 2;
+}
+
+.card {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  flex: 1;
 }
