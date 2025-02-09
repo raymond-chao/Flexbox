@@ -22,7 +22,7 @@
   display: flex;
   width: 80%;
   align-items: flex-end;
-  justify-content: space-between;
+  justify-content: flex-start;
   gap: 10px;
   background-color: #f8f8f8;
   padding: 15px;
@@ -62,21 +62,16 @@
   border-radius: 8px;
   min-height: 200px;
 }
-.flexbox4 .card:nth-child(3) {
-  align-self: flex-end;
-}
 .flexbox5 {
   display: flex;
   width: 80%;
   gap: 10px;
+  align-items: baseline;
   justify-content: center;
   background-color: #f8f8f8;
   padding: 15px;
   border-radius: 8px;
   min-height: 200px;
-}
-.flexbox5 .card:nth-child(2) {
-  align-self: center;
 }
 .flexbox6 {
   display: flex;
@@ -99,4 +94,6 @@
   border-radius: 5px;
   text-align: center;
   flex: 1;
+  height: 60px;
+  margin-top: 20px;
 }
