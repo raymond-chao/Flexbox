@@ -10,8 +10,9 @@
   display: flex;
   gap: 20px;
   padding: 20px;
-  justify-content: relative;
-  flex: 1 auto;
+  flex-direction: row;
+  width: 200px;
+  height: 200px;
   position: relative;
   width: 100%;
   min-height: 200px;
@@ -82,9 +83,6 @@
   padding: 15px;
   border-radius: 8px;
   min-height: 200px;
-}
-.flexbox6 .card:nth-child(2) {
-  flex-grow: 2;
 }
 
 .card {
